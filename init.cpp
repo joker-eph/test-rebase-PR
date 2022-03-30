@@ -5,7 +5,12 @@ void bar() {
 }
 
 int foo(int a, int b) {
-  return 42; // TODO: implement the right logic
+  int i;
+  while (i < a) {
+    b += i;
+    i++;
+  }
+  return b;
 }
 
 void baz() {
