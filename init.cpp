@@ -5,10 +5,8 @@ void bar() {
 }
 
 int foo(int a, int b) {
-  int i = 0;
-  while (i < a) {
+  for (int i = 0; i < a; i++) {
     b += i;
-    i++;
   }
   return b;
 }
