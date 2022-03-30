@@ -5,7 +5,7 @@ void bar() {
 }
 
 int foo(int a, int b) {
-  int i;
+  int i = 0;
   while (i < a) {
     b += i;
     i++;
